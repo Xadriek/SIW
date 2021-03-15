@@ -2,7 +2,6 @@ package it.uniroma3.siw.main;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
 public class ProductMain {
