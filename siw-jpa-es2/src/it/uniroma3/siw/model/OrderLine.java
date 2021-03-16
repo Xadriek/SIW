@@ -4,6 +4,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
+import it.uniroma3.db.products.Product;
 
 @Entity
 public class OrderLine {
@@ -15,6 +18,9 @@ public class OrderLine {
 	private int quantity;
 	
 	private float price;
+	
+	@ManyToOne
+	private Product products;
 
 	public Long getId() {
 		return id;

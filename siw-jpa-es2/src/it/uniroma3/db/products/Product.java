@@ -9,6 +9,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
+
+import it.uniroma3.siw.model.OrderLine;
 
 @Entity
 public class Product {
@@ -23,9 +26,13 @@ public class Product {
 	
 	@ManyToMany(mappedBy = "products")
 	private List<Provider> providers;
+	
+	@OneToMany(mappedBy= "products")
+	private List<OrderLine> orderLines;
 
 	public Product() {
 		this.providers=new ArrayList<Provider>();
+		this.orderLines=new ArrayList<OrderLine>();
 	}
 	
 	public Long getId() {
