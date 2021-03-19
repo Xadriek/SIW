@@ -1,4 +1,4 @@
-package it.uniroma3.db.products;
+package it.uniroma3.siw.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,8 +10,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToOne;
-
-import it.uniroma3.siw.model.Address;
 
 @Entity
 public class Provider {
