@@ -11,6 +11,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
+import javax.persistence.OrderBy;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
@@ -43,6 +44,7 @@ private Address address;
 private List<Order> payedOrders;
 
 @OneToMany(mappedBy="deliver")
+@OrderBy("creationTime asc")
 private List<Order> orders;
 
 public Long getId() {
