@@ -77,7 +77,7 @@ class CustomerTest {
 		customer.setPayedOrders(payedOrders);
 	}
 	
-	@Test
+	/*@Test
 	public void creazioneTest() {
 		
 		tx.begin();
@@ -94,5 +94,21 @@ class CustomerTest {
 		tx.commit();
 		List<Order> orders= em.createNamedQuery("findAllOrders",Order.class ).getResultList();
 		assertEquals(2,orders.size());
-	}
+	}*/
+	/*@Test
+	public void wissel() {
+		tx.begin();
+		em.persist(customer);
+		tx.commit();
+		tx.begin();
+		em.remove(customer);
+		customer.setLastName("gino");
+		tx.commit();
+		tx.begin();
+		em.persist(customer);
+		tx.commit();
+		List<Customer> customers=em.createNamedQuery("findAllCustomers",Customer.class).getResultList();
+		assertEquals("gino",customers.get(0).getLastName());
+		
+	}*/
 }
