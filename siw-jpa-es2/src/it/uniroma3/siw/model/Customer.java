@@ -2,6 +2,7 @@
 package it.uniroma3.siw.model;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -10,6 +11,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.OrderBy;
@@ -17,117 +19,125 @@ import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
 @Entity
+@NamedQuery(name="findAllCustomers",query="SELECT c FROM Customer c")
 @Table(uniqueConstraints = @UniqueConstraint(columnNames= {"firstName","lastName","email"} ))
 public class Customer {
 
-@Id
-@GeneratedValue(strategy = GenerationType.AUTO)
-private Long id;
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long id;
 
-@Column(nullable = false)
-private String firstName;
+	@Column(nullable = false)
+	private String firstName;
 
-@Column(nullable = false)
-private String lastName;
+	@Column(nullable = false)
+	private String lastName;
 
-@Column(unique=true,nullable=false)
-private String email;
+	@Column(unique=true,nullable=false)
+	private String email;
 
-private String phoneNumber;
+	private String phoneNumber;
 
-private LocalDate dateOfBirth;
+	private LocalDate dateOfBirth;
 
-private LocalDate registrationDate;
+	private LocalDate registrationDate;
 
-@OneToOne(cascade= {CascadeType.PERSIST, CascadeType.REMOVE})
-private Address address;
+	@OneToOne(cascade= {CascadeType.PERSIST, CascadeType.REMOVE})
+	private Address address;
 
-@OneToMany(mappedBy="payer",cascade= {CascadeType.PERSIST,CascadeType.REMOVE})
-private List<Order> payedOrders;
+	@OneToMany(mappedBy="payer",cascade= {CascadeType.PERSIST,CascadeType.REMOVE})
+	private List<Order> payedOrders;
 
-@OneToMany(mappedBy="deliver",cascade= {CascadeType.PERSIST,CascadeType.REMOVE})
-@OrderBy("creationTime asc")
-private List<Order> orders;
+	@OneToMany(mappedBy="deliver",cascade= {CascadeType.PERSIST,CascadeType.REMOVE})
+	@OrderBy("creationTime asc")
+	private List<Order> orders;
 
-public Long getId() {
-	return id;
-}
+	public Customer() {
+		this.orders=new ArrayList<Order>();
+		this.payedOrders=new ArrayList<Order>();
+	}
 
-public void setId(Long id) {
-	this.id = id;
-}
+	public Long getId() {
+		return id;
+	}
 
-public String getFirstName() {
-	return firstName;
-}
+	public void setId(Long id) {
+		this.id = id;
+	}
 
-public void setFirstName(String firstName) {
-	this.firstName = firstName;
-}
+	public String getFirstName() {
+		return firstName;
+	}
 
-public String getLastName() {
-	return lastName;
-}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
 
-public void setLastName(String lastName) {
-	this.lastName = lastName;
-}
+	public String getLastName() {
+		return lastName;
+	}
 
-public String getEmail() {
-	return email;
-}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
 
-public void setEmail(String email) {
-	this.email = email;
-}
+	public String getEmail() {
+		return email;
+	}
 
-public String getPhoneNumber() {
-	return phoneNumber;
-}
+	public void setEmail(String email) {
+		this.email = email;
+	}
 
-public void setPhoneNumber(String phoneNumber) {
-	this.phoneNumber = phoneNumber;
-}
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
 
-public LocalDate getDateOfBirth() {
-	return dateOfBirth;
-}
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
 
-public void setDateOfBirth(LocalDate dateOfBirth) {
-	this.dateOfBirth = dateOfBirth;
-}
+	public LocalDate getDateOfBirth() {
+		return dateOfBirth;
+	}
 
-public LocalDate getRegistrationDate() {
-	return registrationDate;
-}
+	public void setDateOfBirth(LocalDate dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
+	}
 
-public void setRegistrationDate(LocalDate registrationDate) {
-	this.registrationDate = registrationDate;
-}
+	public LocalDate getRegistrationDate() {
+		return registrationDate;
+	}
 
-public Address getAddress() {
-	return address;
-}
+	public void setRegistrationDate(LocalDate registrationDate) {
+		this.registrationDate = registrationDate;
+	}
 
-public void setAddress(Address address) {
-	this.address = address;
-}
+	public Address getAddress() {
+		return address;
+	}
 
-public List<Order> getPayedOrders() {
-	return payedOrders;
-}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
 
-public void setPayedOrders(List<Order> payedOrders) {
-	this.payedOrders = payedOrders;
-}
+	public List<Order> getPayedOrders() {
+		return payedOrders;
+	}
 
-public List<Order> getOrders() {
-	return orders;
-}
+	public void setPayedOrders(List<Order> payedOrders) {
+		this.payedOrders = payedOrders;
+	}
+	
 
-public void setOrders(List<Order> orders) {
-	this.orders = orders;
-}
+	public List<Order> getOrders() {
+		return orders;
+	}
+
+	public void setOrders(List<Order> orders) {
+		this.orders = orders;
+	}
+	
 
 
 }
