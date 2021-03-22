@@ -17,7 +17,7 @@ public class ProductMain {
 		product.setPrice(3.5F);
 		product.setDescription("A wonderful bla bla");
 		product.setCode("pt000154");
-		
+
 		Product product1 = new Product();
 		product1.setName("SIW");
 		product1.setPrice(5.5F);

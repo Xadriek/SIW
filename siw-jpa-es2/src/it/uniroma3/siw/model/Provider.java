@@ -3,6 +3,7 @@ package it.uniroma3.siw.model;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -28,7 +29,7 @@ public class Provider {
 	@ManyToMany
 	private List<Product> products;
 	
-	@OneToOne
+	@OneToOne(cascade= {CascadeType.PERSIST,CascadeType.REMOVE})
 	private Address address;
 	
 	public Provider() {

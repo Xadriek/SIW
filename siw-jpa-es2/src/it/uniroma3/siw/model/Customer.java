@@ -4,6 +4,7 @@ package it.uniroma3.siw.model;
 import java.time.LocalDate;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -29,6 +30,7 @@ private String firstName;
 @Column(nullable = false)
 private String lastName;
 
+@Column(unique=true,nullable=false)
 private String email;
 
 private String phoneNumber;
@@ -37,13 +39,13 @@ private LocalDate dateOfBirth;
 
 private LocalDate registrationDate;
 
-@OneToOne
+@OneToOne(cascade= {CascadeType.PERSIST, CascadeType.REMOVE})
 private Address address;
 
-@OneToMany(mappedBy="payer")
+@OneToMany(mappedBy="payer",cascade= {CascadeType.PERSIST,CascadeType.REMOVE})
 private List<Order> payedOrders;
 
-@OneToMany(mappedBy="deliver")
+@OneToMany(mappedBy="deliver",cascade= {CascadeType.PERSIST,CascadeType.REMOVE})
 @OrderBy("creationTime asc")
 private List<Order> orders;
 
