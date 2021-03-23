@@ -33,7 +33,7 @@ public class Customer {
 	@Column(nullable = false)
 	private String lastName;
 
-	@Column(unique=true,nullable=false)
+	@Column(nullable=false)
 	private String email;
 
 	private String phoneNumber;
@@ -45,15 +45,14 @@ public class Customer {
 	@OneToOne(cascade= {CascadeType.PERSIST, CascadeType.REMOVE})
 	private Address address;
 
-	@OneToMany(mappedBy="payer",cascade= {CascadeType.PERSIST,CascadeType.REMOVE})
+
+
+	@OneToMany(mappedBy="customer",cascade= {CascadeType.PERSIST,CascadeType.REMOVE})
+	@OrderBy("creationTime asc")
 	private List<Order> payedOrders;
 
-	@OneToMany(mappedBy="deliver",cascade= {CascadeType.PERSIST,CascadeType.REMOVE})
-	@OrderBy("creationTime asc")
-	private List<Order> orders;
-
 	public Customer() {
-		this.orders=new ArrayList<Order>();
+
 		this.payedOrders=new ArrayList<Order>();
 	}
 
@@ -130,13 +129,7 @@ public class Customer {
 	}
 	
 
-	public List<Order> getOrders() {
-		return orders;
-	}
 
-	public void setOrders(List<Order> orders) {
-		this.orders = orders;
-	}
 	
 
 

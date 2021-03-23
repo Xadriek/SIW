@@ -70,10 +70,9 @@ class CustomerTest {
 		List<Order> payedOrders=customer.getPayedOrders();		//istaziamento lista di ordini pagati
 		payedOrders.add(order1);								//inserimento ordini pagati
 
-		List<Order> orders=customer.getOrders();				//istanziamento lista ordini
-		orders.add(order2);										//inserimento ordini
+										//inserimento ordini
 		
-		customer.setOrders(orders);
+
 		customer.setPayedOrders(payedOrders);
 	}
 	

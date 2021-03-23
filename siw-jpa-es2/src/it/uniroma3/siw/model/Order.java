@@ -32,11 +32,11 @@ public class Order {
 	private List<OrderLine> orderLines;
 	
 	@ManyToOne
-	private Customer payer;
+	private Customer customer;
 	
-	@ManyToOne
-	private Customer deliver;
+
 	
+
 	public Order() {
 		this.orderLines=new ArrayList<OrderLine>();
 	}
@@ -64,22 +64,15 @@ public class Order {
 	public void setOrderLines(List<OrderLine> orderLines) {
 		this.orderLines = orderLines;
 	}
-
-	public Customer getPayer() {
-		return payer;
+	public Customer getCustomer() {
+		return customer;
+	}
+	
+	public void setCustomer(Customer customer) {
+		this.customer = customer;
 	}
 
-	public void setPayer(Customer payer) {
-		this.payer = payer;
-	}
 
-	public Customer getDeliver() {
-		return deliver;
-	}
-
-	public void setDeliver(Customer deliver) {
-		this.deliver = deliver;
-	}
 	
 	
 }

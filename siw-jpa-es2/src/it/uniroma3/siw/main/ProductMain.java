@@ -51,7 +51,7 @@ public class ProductMain {
 		List<Order> orders=customer.getOrders();				//istanziamento lista ordini
 		orders.add(order2);										//inserimento ordini
 		
-		customer.setOrders(orders);
+		
 		customer.setPayedOrders(payedOrders);
 		
 		EntityTransaction tx = em.getTransaction();
