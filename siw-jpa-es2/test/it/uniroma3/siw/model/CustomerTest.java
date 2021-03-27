@@ -39,7 +39,7 @@ class CustomerTest {
 
 	@BeforeEach
 	public void initTransaction() {
-		tx = em.getTransaction();
+		/*tx = em.getTransaction();
 		
 		this.customer= new Customer();						//genero il cliente
 		Address address1=new Address();							//genero l'oggetto address
@@ -76,7 +76,7 @@ class CustomerTest {
 		customer.setPayedOrders(payedOrders);
 	}
 	
-	/*@Test
+	@Test
 	public void creazioneTest() {
 		
 		tx.begin();
@@ -108,6 +108,6 @@ class CustomerTest {
 		tx.commit();
 		List<Customer> customers=em.createNamedQuery("findAllCustomers",Customer.class).getResultList();
 		assertEquals("gino",customers.get(0).getLastName());
-		
-	}*/
+	*/	
+	}
 }
