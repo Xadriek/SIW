@@ -104,21 +104,25 @@ public class ProductMain {
 		}
 		System.out.println("DESCRIZIONI PRODOTTI PREZZI MASSIMI");
 		TypedQuery<Object> massimo= em.createQuery("SELECT max(p.price) FROM Product p",Object.class);
-		TypedQuery<Object> q2= em.createQuery("SELECT p.description FROM Product p GROUP BY p.description,p.price HAVING p.price = :massimo ",Object.class);
+		TypedQuery<Object[]> q2= em.createQuery("SELECT p.id,p.name,p.description,p.code,p.price FROM Product p GROUP BY p.id,p.price HAVING p.price = :massimo ",Object[].class);
 		q2.setParameter("massimo", (Float)massimo.getSingleResult());
-		for(Object o:q2.getResultList()) {
+		for(Object[] o:q2.getResultList()) {
 			System.out.println(separatore);
-			System.out.println((String)o);
+			for(Object o2:o) {
+				System.out.println(o2);
+			}
 			System.out.println(separatore);
 			
 		}
 		System.out.println("DESCRIZIONI PRODOTTI PREZZI MINIMI");
 		TypedQuery<Object> minimo= em.createQuery("SELECT min(p.price) FROM Product p",Object.class);
-		TypedQuery<Object> q3= em.createQuery("SELECT p.description FROM Product p GROUP BY p.description,p.price HAVING p.price = :minimo ",Object.class);
+		TypedQuery<Object[]> q3= em.createQuery("SELECT p.id,p.name,p.description,p.code,p.price FROM Product p GROUP BY p.id,p.price HAVING p.price = :minimo ",Object[].class);
 		q3.setParameter("minimo", (Float)minimo.getSingleResult());
-		for(Object o:q3.getResultList()) {
+		for(Object[] o:q3.getResultList()) {
 			System.out.println(separatore);
-			System.out.println((String)o);
+			for(Object o2:o) {
+				System.out.println(o2);
+			}
 			System.out.println(separatore);
 		}
 		
