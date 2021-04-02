@@ -1,5 +1,6 @@
 package it.uniroma3.siw.repository;
 
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.List;
 
@@ -10,17 +11,52 @@ public class SimpleRepositoryImpl<T> implements SimpleRepository<T> {
 	private Class<T> domainClass;
 
 	public SimpleRepositoryImpl(Class<T> domainClass) {
+		
 		this.domainClass = domainClass;
 	}
 
 	public T save(T entity) {
-		T persistentEntity =null;
 		
+		T persistentEntity =entity;
+		Method getId = null; 
 		
-		
-		
-				
-		 return persistentEntity;
+		try {
+			getId = this.domainClass.getMethod("getId");
+		}
+		catch (NoSuchMethodException e) {
+
+			e.printStackTrace();
+
+		} 
+		catch (SecurityException e) {
+
+			e.printStackTrace();
+		}
+
+		try {
+			if(getId.invoke(persistentEntity)!= null ) {
+
+				this.em.merge(persistentEntity);
+
+			}else { 
+
+				this.em.persist(persistentEntity);
+			}
+		} 
+		catch (IllegalAccessException e) {
+			e.printStackTrace();
+		}
+		catch (IllegalArgumentException e) {
+			e.printStackTrace();
+		}
+		catch (InvocationTargetException e) {
+			e.printStackTrace();
+		}
+
+
+
+
+		return persistentEntity;
 	}
 
 	public List<T> findAll() { 
@@ -55,7 +91,7 @@ public class SimpleRepositoryImpl<T> implements SimpleRepository<T> {
 	@Override
 	public void setEntityManager(EntityManager em) {
 		this.em=em;
-		
+
 	}
 
 }
