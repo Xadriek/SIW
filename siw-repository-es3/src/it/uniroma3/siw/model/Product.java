@@ -34,6 +34,9 @@ public class Product {
 		this.providers=new ArrayList<Provider>();
 		this.orderLines=new ArrayList<OrderLine>();
 	}
+	public Product(String name) {
+		this.name=name;
+	}
 	
 	public Long getId() {
 		return id;
