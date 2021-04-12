@@ -75,8 +75,8 @@ public class SimpleRepositoryImpl<T> implements SimpleRepository<T> {
 		this.em.createQuery("DELETE FROM "+this.domainClass.getName()).executeUpdate();
 	}
 
-	public long count() {
-		return (long)this.em.createQuery("SELECT COUNT(id) FROM "+this.domainClass.getName()).getSingleResult();
+	public Long count() {
+		return (Long)this.em.createQuery("SELECT COUNT(id) FROM "+this.domainClass.getName()).getSingleResult();
 	}
 
 	public boolean existsById(Long id) {

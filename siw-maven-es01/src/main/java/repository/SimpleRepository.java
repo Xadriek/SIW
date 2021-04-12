@@ -20,7 +20,7 @@ public interface SimpleRepository<T> {
 
 	public void deleteAll();
 
-	public long count();
+	public Long count();
 
 	public boolean existsById(Long id);
 }

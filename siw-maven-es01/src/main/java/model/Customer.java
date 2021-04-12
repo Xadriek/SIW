@@ -18,11 +18,15 @@ import javax.persistence.OrderBy;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 @Entity
 @NamedQuery(name="findAllCustomers",query="SELECT c FROM Customer c")
 @Table(uniqueConstraints = @UniqueConstraint(columnNames= {"firstName","lastName","email"} ))
 public class Customer {
 
+	private static final Logger logger=LogManager.getLogger();
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
