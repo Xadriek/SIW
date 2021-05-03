@@ -7,7 +7,9 @@
 <body>
 	<form action="controller" method="post">
 		<div>Nome: <input type="text" name="nome" /></div>
+		<div>${errori["nome"]}</div>
 		<div>Cognome: <input type="text" name="cognome" /></div>
+		<div>${errori["cognome"]}</div>
 		<div><input type="submit" 
 			name="sumbit" value="invia" /></div>
 	</form>

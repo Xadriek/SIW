@@ -2,6 +2,8 @@ package it.uniroma3.siw.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.HashMap;
+import java.util.Map;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
@@ -22,18 +24,32 @@ public class SimpleController extends HttpServlet {
 		// leggo i parametri e li salvo in varibili locali
 		String nome = request.getParameter("nome");
 		String cognome = request.getParameter("cognome");
+		String nextPage;
+		Map<String,String> messaggiErrore=new HashMap<String,String>();
 
-		// leggo (alcune) intestazioni http della richiesta
-		String address = (String)request.getRemoteAddr();
-		String host = (String)request.getRemoteHost();
-		String userAgent = request.getHeader("User-Agent");
+		if(!nome.equals("") && !cognome.equals("")) {
+
+			request.setAttribute("nome", nome.toUpperCase());
+			request.setAttribute("cognome", cognome.toUpperCase());
+			nextPage="/persona.jsp";
+		}else {
+			if(nome.equals("")) {	
+				messaggiErrore.put("nome", "Il nome è un campo obbligatorio");	
+			}
+			if(cognome.equals("")) {
+
+				messaggiErrore.put("cognome", "Il cognome è un campo obbligatorio");	
+			}
+			request.setAttribute("errori", messaggiErrore);
+			nextPage="/index.jsp";
+		}
 
 		// gestione dell'inoltro
 		ServletContext application = getServletContext();
-		RequestDispatcher rd = application.getRequestDispatcher("/vista");
+		RequestDispatcher rd = application.getRequestDispatcher(nextPage);
 		rd.forward(request, response);
 		return; 
 
-		
+
 	}
 }
