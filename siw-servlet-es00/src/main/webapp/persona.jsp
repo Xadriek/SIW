@@ -5,7 +5,7 @@
   </head>
   <body>
     <h2>Hai inserito questi dati:</h2>
-    <div>Nome: ${nome}</div>
-    <div>Cognome: ${cognome}</div>
+    <div>Nome: ${persona.nome}</div>
+    <div>Cognome: ${persona.cognome}</div>
   </body>
 </html>

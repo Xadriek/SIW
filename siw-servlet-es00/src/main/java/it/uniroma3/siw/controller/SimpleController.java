@@ -1,10 +1,6 @@
 package it.uniroma3.siw.controller;
 
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.HashMap;
-import java.util.Map;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -12,6 +8,10 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import it.uniroma3.siw.controller.validator.PersonaValidator;
+import it.uniroma3.siw.model.Persona;
 
 @WebServlet("/controller")
 public class SimpleController extends HttpServlet {
@@ -25,22 +25,17 @@ public class SimpleController extends HttpServlet {
 		String nome = request.getParameter("nome");
 		String cognome = request.getParameter("cognome");
 		String nextPage;
-		Map<String,String> messaggiErrore=new HashMap<String,String>();
+		Persona persona;
+		PersonaValidator validator=new PersonaValidator();
+		HttpSession session=request.getSession();
 
-		if(!nome.equals("") && !cognome.equals("")) {
+		if(validator.validate(request)) {
 
-			request.setAttribute("nome", nome.toUpperCase());
-			request.setAttribute("cognome", cognome.toUpperCase());
-			nextPage="/persona.jsp";
+			persona=new Persona(nome.toUpperCase(), cognome.toUpperCase());
+			session.setAttribute("persona", persona);
+			nextPage="/conferma.jsp";
 		}else {
-			if(nome.equals("")) {	
-				messaggiErrore.put("nome", "Il nome è un campo obbligatorio");	
-			}
-			if(cognome.equals("")) {
 
-				messaggiErrore.put("cognome", "Il cognome è un campo obbligatorio");	
-			}
-			request.setAttribute("errori", messaggiErrore);
 			nextPage="/index.jsp";
 		}
 
