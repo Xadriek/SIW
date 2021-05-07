@@ -10,8 +10,7 @@
 		<div>${errori["nome"]}</div>
 		<div>Cognome: <input type="text" name="cognome" value="${cognome}" /></div>
 		<div>${errori["cognome"]}</div>
-		<div><input type="submit" 
-			name="sumbit" value="invia" /></div>
+		<div><input type="submit" name="sumbit" value="invia" /></div>
 	</form>
 </body>
 </html>
