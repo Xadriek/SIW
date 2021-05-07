@@ -2030,3 +2030,215 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.servlet
 2021-05-07 09:13:40,071 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
 2021-05-07 09:13:40,072 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-05-07 09:13:40,072 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:23:12,356 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-07 12:23:13,113 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: it.uniroma3.siw:siw-servlet-es00:0.0.1-SNAPSHOT @ C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\pom.xml.
+2021-05-07 12:23:13,113 [Worker-10: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: it.uniroma3.siw:siw-servlet-es00:0.0.1-SNAPSHOT @ C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\pom.xml.
+2021-05-07 12:23:13,956 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:23:13,957 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:23:13,958 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:23:13,959 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:23:14,332 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: it.uniroma3.siw:siw-servlet-es00:0.0.1-SNAPSHOT @ C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\pom.xml.
+2021-05-07 12:23:15,161 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:23:15,162 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:23:15,163 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:23:15,163 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:23:21,936 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:23:21,936 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:23:21,937 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:23:21,937 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:27:08,765 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:27:08,766 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:27:08,766 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:27:08,766 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:27:27,089 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:27:27,090 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:27:27,090 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:27:27,090 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:28:24,960 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:28:24,960 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:28:24,961 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:28:24,961 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:28:45,635 [Worker-3: Launching Executing clean in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00
+2021-05-07 12:28:45,636 [Worker-3: Launching Executing clean in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-05-07 12:28:46,937 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:28:46,937 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:28:46,937 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:28:46,937 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:28:46,938 [Worker-0: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of siw-servlet-es00
+2021-05-07 12:28:46,939 [Worker-0: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for siw-servlet-es00
+2021-05-07 12:28:46,945 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:28:51,172 [Worker-0: Launching Executing install in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00
+2021-05-07 12:28:51,172 [Worker-0: Launching Executing install in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-05-07 12:28:53,486 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:28:53,486 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:28:53,486 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:28:53,487 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:31:18,514 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:31:18,514 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:31:18,515 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:31:18,515 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:31:23,153 [Worker-12: Launching Executing clean in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00
+2021-05-07 12:31:23,153 [Worker-12: Launching Executing clean in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-05-07 12:31:24,477 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:31:24,477 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:31:24,478 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:31:24,478 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:31:24,478 [Worker-13: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of siw-servlet-es00
+2021-05-07 12:31:24,478 [Worker-13: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for siw-servlet-es00
+2021-05-07 12:31:24,485 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:31:28,240 [Worker-13: Launching Executing install in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00
+2021-05-07 12:31:28,240 [Worker-13: Launching Executing install in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-05-07 12:31:30,629 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:31:30,629 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:31:30,630 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:31:30,630 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:33:03,711 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:33:03,711 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:33:03,712 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:33:03,712 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:33:09,913 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-05-07 12:33:10,091 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: it.uniroma3.siw:siw-servlet-es00:0.0.1-SNAPSHOT @ C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\pom.xml.
+2021-05-07 12:33:10,439 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /siw-servlet-es00/src/main/java
+2021-05-07 12:33:10,439 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /siw-servlet-es00/src/test/java
+2021-05-07 12:33:10,774 [Worker-10: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for siw-servlet-es00
+2021-05-07 12:33:10,777 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-05-07 12:33:10,959 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:33:10,959 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:33:10,961 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:33:10,961 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:33:10,961 [Worker-1: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of siw-servlet-es00
+2021-05-07 12:33:10,961 [Worker-1: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for siw-servlet-es00
+2021-05-07 12:33:10,966 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:33:15,778 [Worker-17: Launching Executing install in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00
+2021-05-07 12:33:15,779 [Worker-17: Launching Executing install in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-05-07 12:33:17,783 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:33:17,783 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:33:17,784 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:33:17,784 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:34:22,531 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:34:22,531 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:34:22,531 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:34:22,532 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:34:57,737 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:34:57,737 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:34:57,738 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:34:57,738 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:35:05,622 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:35:05,622 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:35:05,623 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:35:05,623 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:35:58,371 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:35:58,371 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:35:58,372 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:35:58,372 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:36:04,111 [Worker-10: Launching Executing clean in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00
+2021-05-07 12:36:04,111 [Worker-10: Launching Executing clean in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-05-07 12:36:05,410 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:36:05,410 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:36:05,410 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:36:05,410 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:36:05,411 [Worker-3: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of siw-servlet-es00
+2021-05-07 12:36:05,411 [Worker-3: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for siw-servlet-es00
+2021-05-07 12:36:05,419 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:36:15,773 [Worker-13: Launching Executing install in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00
+2021-05-07 12:36:15,773 [Worker-13: Launching Executing install in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-05-07 12:36:18,126 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:36:18,126 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:36:18,126 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:36:18,126 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:37:48,671 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:37:48,671 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:37:48,672 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:37:48,672 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:38:03,964 [Worker-10: Launching Executing clean in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00
+2021-05-07 12:38:03,964 [Worker-10: Launching Executing clean in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-05-07 12:38:05,262 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:38:05,262 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:38:05,263 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:38:05,263 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:38:05,263 [Worker-0: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of siw-servlet-es00
+2021-05-07 12:38:05,263 [Worker-0: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for siw-servlet-es00
+2021-05-07 12:38:05,265 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:38:09,272 [Worker-13: Launching Executing install in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00
+2021-05-07 12:38:09,272 [Worker-13: Launching Executing install in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-05-07 12:38:11,600 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:38:11,600 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:38:11,600 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:38:11,601 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:42:38,537 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:42:38,537 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:42:38,538 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:42:38,538 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:42:54,625 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-05-07 12:42:54,771 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: it.uniroma3.siw:siw-servlet-es00:0.0.1-SNAPSHOT @ C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\pom.xml.
+2021-05-07 12:42:55,107 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /siw-servlet-es00/src/main/java
+2021-05-07 12:42:55,107 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /siw-servlet-es00/src/test/java
+2021-05-07 12:42:55,250 [Worker-18: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for siw-servlet-es00
+2021-05-07 12:42:55,253 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-05-07 12:42:55,398 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:42:55,399 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:42:55,400 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:42:55,400 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:42:55,400 [Worker-21: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of siw-servlet-es00
+2021-05-07 12:42:55,400 [Worker-21: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for siw-servlet-es00
+2021-05-07 12:42:55,402 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:42:59,375 [Worker-19: Launching Executing install in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00
+2021-05-07 12:42:59,375 [Worker-19: Launching Executing install in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-05-07 12:43:01,526 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:43:01,526 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:43:01,527 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:43:01,527 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:50:15,248 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:50:15,248 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:50:15,248 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:50:15,248 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:50:59,978 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:50:59,978 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:50:59,979 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:50:59,979 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:51:05,988 [Worker-20: Launching Executing clean in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00
+2021-05-07 12:51:05,988 [Worker-20: Launching Executing clean in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-05-07 12:51:07,233 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:51:07,234 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:51:07,236 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:51:07,237 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:51:07,237 [Worker-24: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of siw-servlet-es00
+2021-05-07 12:51:07,237 [Worker-24: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for siw-servlet-es00
+2021-05-07 12:51:07,242 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:51:10,639 [Worker-17: Launching Executing install in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00
+2021-05-07 12:51:10,639 [Worker-17: Launching Executing install in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-05-07 12:51:13,002 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:51:13,003 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:51:13,004 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:51:13,004 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:52:40,240 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:52:40,240 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:52:40,241 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:52:40,242 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:52:56,683 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:52:56,683 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:52:56,684 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:52:56,684 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:52:59,061 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:52:59,061 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:52:59,062 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:52:59,062 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:53:12,935 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:53:12,935 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:53:12,935 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:53:12,935 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:53:18,839 [Worker-20: Launching Executing clean in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00
+2021-05-07 12:53:18,839 [Worker-20: Launching Executing clean in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-05-07 12:53:20,107 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:53:20,107 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:53:20,107 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:53:20,108 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources
+2021-05-07 12:53:20,108 [Worker-20: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of siw-servlet-es00
+2021-05-07 12:53:20,108 [Worker-20: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for siw-servlet-es00
+2021-05-07 12:53:20,109 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:53:24,678 [Worker-24: Launching Executing install in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00
+2021-05-07 12:53:24,678 [Worker-24: Launching Executing install in C__Users_Xadri_Documents_GitHub_SIW_siw-servlet-es00] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-05-07 12:53:26,976 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:53:26,976 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\main\resources
+2021-05-07 12:53:26,977 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-07 12:53:26,977 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Xadri\Documents\GitHub\SIW\siw-servlet-es00\src\test\resources

@@ -8,7 +8,7 @@
 	<div>Nome: ${persona.nome}</div>
 	<div>Cognome: ${persona.cognome}</div>
 	<div>
-		<form action="controllerConferma" method="post">
+		<form action="controller" method="post">
 			<input type="submit" name="submit" value="conferma" /> 
 			<input type="submit" name="submit" value="torna indietro" />
 		</form>
