@@ -39,20 +39,20 @@ public class SimpleController extends HttpServlet {
 				session.setAttribute("persona", persona);
 				nextPage="/conferma.jsp";
 			}else {
-
+				
 				nextPage="/index.jsp";
 			}
 		}else {
 			if(comando.equals("conferma")) {
 				nextPage="/persona.jsp";
 			}else if(comando.equals("torna indietro")) {
-				session.setAttribute("persona", persona);
+				request.setAttribute("nome", persona.getNome());
+				request.setAttribute("cognome", persona.getCognome());
 				nextPage="/index.jsp";
 
 			}
 		}
-		request.setAttribute("cognome", cognome);
-		request.setAttribute("nome", nome);
+		
 
 		// gestione dell'inoltro
 		ServletContext application = getServletContext();
